@@ -29,11 +29,11 @@ class Program
         Console.WriteLine("***************************************************************************");
         if (res)
         {
-            Console.WriteLine("Точка не в области");
+            Console.WriteLine("Точка в области");
         }
         else
         {
-            Console.WriteLine("Точка в области");
+            Console.WriteLine("Точка не в области");
         }
         Console.ReadKey();
     }
