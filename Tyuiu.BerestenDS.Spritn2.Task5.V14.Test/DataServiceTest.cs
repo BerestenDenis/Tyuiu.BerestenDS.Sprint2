@@ -1,4 +1,5 @@
-using Tyuiu.BerestenDS.Spritn2.Task5.V14.Lib;
+using Tyuiu.BerestenDS.Sprint2.Task5.V14.Lib;
+
 namespace Tyuiu.BerestenDS.Spritn2.Task5.V14.Test
 {
     [TestClass]
