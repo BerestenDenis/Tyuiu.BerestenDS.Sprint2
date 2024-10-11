@@ -26,7 +26,7 @@ class Program
         Console.WriteLine("Введите первый день в году");
         int d = Convert.ToInt32(Console.ReadLine());
 
-        string res;
+        string res ;
 
         if ((k > 365) || (k < 1) || (d > 7) || (d < 1))
         {
