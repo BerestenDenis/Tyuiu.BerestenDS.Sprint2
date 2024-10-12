@@ -23,12 +23,12 @@ namespace Tyuiu.BerestenDS.Sprint2.Task6.V13.Lib
                     {
                         nextM = m + 1;
                         nextN = 1;
-                        date = $"{g}.{nextM}.{nextN}";
+                        date = $"{nextN}.{nextM}.{g}";
 
                     }
                     else
                     {
-                        date = $"{g}.{m}.{nextN}";
+                        date = $"{nextN}.{m}.{g}";
                     }
                     break;
                 case 2:
@@ -36,11 +36,11 @@ namespace Tyuiu.BerestenDS.Sprint2.Task6.V13.Lib
                     {
                         nextN = 1;
                         nextM++;
-                        date = $"{g}.{nextM}.{nextN}";
+                        date = $"{nextN}.{nextM}.{g}";
                     }
                    else
                     {
-                        date = $"{g}.{m}.{nextN}";
+                        date = $"{nextN}.{m}.{g}";
                     }
                     break;
                 case 4:
@@ -51,11 +51,11 @@ namespace Tyuiu.BerestenDS.Sprint2.Task6.V13.Lib
                     {
                         nextN = 1;
                         nextM++;
-                        date = $"{g}.{nextM}.{nextN}";
+                        date = $"{nextN}.{nextM}.{g}";
                     }
                 else
                     {
-                        date = $"{g}.{m}.{nextN}";
+                        date = $"{nextN}.{m}.{g}";
                     }
                     break;
                 case 12:
@@ -64,11 +64,11 @@ namespace Tyuiu.BerestenDS.Sprint2.Task6.V13.Lib
                         nextG++;
                         nextM = 1;
                         nextN = 1;
-                        date = $"{nextG}.{nextM}.{nextN}";
+                        date = $"{nextN}.{nextM}.{nextG}";
                     }
                     else
                     {
-                        date = $"{g}.{m}.{nextN}";
+                        date = $"{nextN}.{m}.{g}";
                     }
                     break;
             default : throw new ArgumentException($"Не верное кол-во дней в году{n}");
